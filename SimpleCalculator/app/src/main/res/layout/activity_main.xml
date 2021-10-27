@@ -27,7 +27,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/clear" />
+                android:text="@string/clear"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/parenthesesBTN"
@@ -35,7 +36,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/parentheses" />
+                android:text="@string/parentheses"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/exponentBTN"
@@ -43,7 +45,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/exponent" />
+                android:text="@string/exponent"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/divideBTN"
@@ -51,7 +54,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/divide" />
+                android:text="@string/divide"
+                android:textSize="25sp"/>
 
         </TableRow>
 
@@ -65,7 +69,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/seven" />
+                android:text="@string/seven"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/eightBTN"
@@ -73,7 +78,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/eight" />
+                android:text="@string/eight"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/nineBTN"
@@ -81,7 +87,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/nine" />
+                android:text="@string/nine"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/multiplyBTN"
@@ -89,7 +96,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/multiply" />
+                android:text="@string/multiply"
+                android:textSize="25sp"/>
         </TableRow>
 
         <TableRow
@@ -102,7 +110,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/four" />
+                android:text="@string/four"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/fiveBTN"
@@ -110,7 +119,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/five" />
+                android:text="@string/five"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/sixBTN"
@@ -118,7 +128,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/six" />
+                android:text="@string/six"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/subtractBTN"
@@ -126,7 +137,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/subtract" />
+                android:text="@string/subtract"
+                android:textSize="25sp"/>
         </TableRow>
 
         <TableRow
@@ -139,7 +151,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/one" />
+                android:text="@string/one"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/twoBTN"
@@ -147,7 +160,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/two" />
+                android:text="@string/two"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/threeBTN"
@@ -155,7 +169,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/three" />
+                android:text="@string/three"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/addBTN"
@@ -163,7 +178,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/add" />
+                android:text="@string/add"
+                android:textSize="25sp"/>
         </TableRow>
 
         <TableRow
@@ -176,7 +192,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/plusMinus" />
+                android:text="@string/plusMinus"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/zeroBTN"
@@ -184,7 +201,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/zero" />
+                android:text="@string/zero"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/pointBTN"
@@ -192,7 +210,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/point" />
+                android:text="@string/point"
+                android:textSize="25sp"/>
 
             <Button
                 android:id="@+id/equalsBTN"
@@ -200,7 +219,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/equals" />
+                android:text="@string/equals"
+                android:textSize="25sp"/>
         </TableRow>
     </TableLayout>
 
