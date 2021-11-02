@@ -14,7 +14,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/input"
         app:layout_constraintVertical_bias="0.95">
 
         <TableRow
@@ -27,8 +27,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="clearBTN"
                 android:text="@string/clear"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/parenthesesBTN"
@@ -36,8 +37,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="parenthesesBTN"
                 android:text="@string/parentheses"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/exponentBTN"
@@ -45,8 +47,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="exponentBTN"
                 android:text="@string/exponent"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/divideBTN"
@@ -54,8 +57,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="divideBTN"
                 android:text="@string/divide"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
         </TableRow>
 
@@ -69,8 +73,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="sevenBTN"
                 android:text="@string/seven"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/eightBTN"
@@ -78,8 +83,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="eightBTN"
                 android:text="@string/eight"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/nineBTN"
@@ -87,8 +93,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="nineBTN"
                 android:text="@string/nine"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/multiplyBTN"
@@ -96,8 +103,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="multiplyBTN"
                 android:text="@string/multiply"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow
@@ -110,8 +118,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="fourBTN"
                 android:text="@string/four"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/fiveBTN"
@@ -119,8 +128,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="fiveBTN"
                 android:text="@string/five"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/sixBTN"
@@ -128,8 +138,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="sixBTN"
                 android:text="@string/six"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/subtractBTN"
@@ -137,8 +148,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="subtractBTN"
                 android:text="@string/subtract"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow
@@ -151,8 +163,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="oneBTN"
                 android:text="@string/one"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/twoBTN"
@@ -160,8 +173,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="twoBTN"
                 android:text="@string/two"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/threeBTN"
@@ -169,8 +183,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="threeBTN"
                 android:text="@string/three"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/addBTN"
@@ -178,8 +193,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="addBTN"
                 android:text="@string/add"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow
@@ -192,8 +208,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="plusMinusBTN"
                 android:text="@string/plusMinus"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/zeroBTN"
@@ -201,8 +218,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="zeroBTN"
                 android:text="@string/zero"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/pointBTN"
@@ -210,8 +228,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="pointBTN"
                 android:text="@string/point"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/equalsBTN"
@@ -219,13 +238,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="equalsBTN"
                 android:text="@string/equals"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
         </TableRow>
     </TableLayout>
 
     <EditText
-        android:id="@+id/textView2"
+        android:id="@+id/input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -243,11 +263,11 @@
         android:id="@+id/backspaceBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="backspaceBTN"
         android:text="@string/backspace"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/backspace"
-        />
+        app:srcCompat="@drawable/backspace" />
 </androidx.constraintlayout.widget.ConstraintLayout>
