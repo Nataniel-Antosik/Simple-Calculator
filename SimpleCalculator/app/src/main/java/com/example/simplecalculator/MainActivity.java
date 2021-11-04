@@ -2,6 +2,7 @@ package com.example.simplecalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.mariuszgromada.math.mxparser.*;
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
 import android.util.Log;
@@ -156,7 +157,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void equalsBTN(View view){
+        String userExpression = display.getText().toString();
 
+        Expression exp = new Expression(userExpression);
+
+        String result = String.valueOf(exp.calculate());
+
+        display.setText(result);
+        display.setSelection(result.length());
     }
 
     public void parenthesesBTN(View view){
