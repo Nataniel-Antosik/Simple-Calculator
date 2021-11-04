@@ -1,6 +1,12 @@
 # Simple-Calculator
 A simple calculator created for the Android Academy from the .NET Learning Circle
 
+## Technologies
+Project is created with:
+* Java
+* XML
+* Android Studio
+
 ## Application views
 <img src ="Screen_1.jpg" widith="500" height="700"> 
 
